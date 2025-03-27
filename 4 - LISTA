@@ -1,0 +1,22 @@
+# include <stdio.h>
+
+int main (){
+	
+	int num1, num2, num3;
+	
+		printf (" \n\n    LETRA ""d"" DA LISTA");
+			printf("\n\n\n    Digite o primeiro valor: ");
+				scanf("%d", &num1);
+			printf("\n\n\n    Digite o segundo valor: ");
+				scanf("%d", &num2);
+				
+				num3 = num2;
+				num2 = num1;
+				num1 = num3;
+				
+				printf ("\n\n\n  Os valor do primeiro  e %d e do segundo e %d", num1, num2);
+				
+				
+	
+	
+}

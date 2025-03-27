@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+
+int main (){
+	
+	int filhos, auxilio;
+		
+		printf("\n\n\n     CALCULADORA DE AUXILIO CRECHE 1.0");
+			printf(" \n\n\n     VOCE RECEBERA A QUANTIA DE 50,00 POR CADA FILHO. ");
+				printf("\n\n\n     Digite a quantidade de filhos: ");
+					scanf("%d", &filhos);
+					
+				auxilio = filhos * 50; 
+				
+					printf("\n\n\n   O seu auxilio creche tem o total de %d reais.", auxilio);
+	
+	
+	
+	return 0;
+}

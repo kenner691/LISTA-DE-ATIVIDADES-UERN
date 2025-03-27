@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+
+int main (){
+	
+	char nome [80];
+		printf ("  \n\n\n   DIGITE SEU NOME: ");
+			scanf("%s", nome);
+			
+		printf("\n\n      Bem vindo, %s!", nome);
+	
+	
+
+	
+	
+	
+	return 0;
+}

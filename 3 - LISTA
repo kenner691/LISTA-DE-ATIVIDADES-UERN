@@ -1,0 +1,22 @@
+# include <stdio.h>
+
+
+int main (){
+	
+	float distancia = 0, tempo = 0, resultado;
+	
+	 printf ("  \n\n   Calcule a velocidade media de um veiculo: ");
+	 	printf ("   \n\n Digite a distancia percorrida (em caso de virgula, separe por pontos): ");
+	 		scanf("%f", &distancia);
+	 	printf ("\n\n\n Agora, digite o tempo em horas que levou para chegar ao destino: ");
+	 		scanf("%f", &tempo);
+	 		
+	 		
+	 	resultado = distancia / tempo;
+	 	
+	 		printf ("\n\n\n\n     A velocidade media e igual a %3.2f", resultado);
+	 
+	
+	
+	return 0;
+}

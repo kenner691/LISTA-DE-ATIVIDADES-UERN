@@ -1,0 +1,32 @@
+#include <stdio.h>
+
+int main (){
+	
+	int paes, empadas;
+	float valordaempada, valordopao, resultado, poupanca;
+	
+		printf("\n\n\n    ATIVIDADE ""e"" da lista: ");
+			printf("\n\n\n Digite a quantidade de paes: ");
+				scanf("%d", &paes);
+			printf("\n\n\n Agora, digite a quantidade de empadas: ");
+				scanf("%d", &empadas);
+				
+		
+	valordopao = paes * 0.15;
+	valordaempada = empadas * 2.5;
+	
+			printf ("\n\nO valor total dos paes foi de: %5.2f", valordopao);
+			printf ("\n\nO valor total das empadas foi de: %5.2f", valordaempada);
+			
+			printf("\n\n\n   O valor dos paes junto com as empadas foi de %5.2f", valordopao + valordaempada);
+			
+			resultado = valordopao + valordaempada;
+			poupanca = resultado * 0.15;
+			
+			printf("\n\n\n O dono da padaria devera guardar o valor de %5.2f do valor das vendas arrecadadas", poupanca);
+	
+		
+	
+	
+	return 0;
+}
